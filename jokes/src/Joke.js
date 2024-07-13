@@ -13,7 +13,7 @@ const Joke = () => {
  
     return (
         <div className="joke">
-            <Button callApi={fetchApi} /> 
+            <Button callApi={fetchApi} />
             <p>{Joke}</p>    
         </div>
     );
